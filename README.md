@@ -1,5 +1,8 @@
 # LCSUG
 The Lassonde Computer Science Unofficial Guide - https://chrisngyn.github.io/LCSUG
+
+<p align="center"><img src="https://github.com/chrisngyn/LCSUG/blob/master/img/readme.png" width="80%"></p>
+
 ## About
 This is my take on making a survival guide to Computer Science at York University. I wanted to document all the things I learned over the years, answer common questions, and write all the things that I wish I knew when I was a first year student.  
   
