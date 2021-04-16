@@ -198,13 +198,9 @@ strong {
   }
 }
 
-.coverr {
+.landing {
   position: fixed;
   display: block;
   height: 100vh;
   /* top: 40vh; */
-}
-
-.ok {
-  padding-top: 90vh;
 }

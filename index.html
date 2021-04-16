@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <title>The LCSUG</title>
   <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="./styles/style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
@@ -40,18 +40,18 @@
 
   <br>
 
-  <div id="cover-page-outer-container" class="coverr">
+  <div id="cover-page-outer-container" class="landing">
     <div>
       <div id="cover-page-title">
         A Handbook to Surviving Lassonde's Computer Science
       </div>
       <div id="cover-page-subtitle">
-        <p>(made by the students, for the students)</p>
+        <p>(made by students, for students)</p>
       </div>
 
       <br>
 
-      <img class="photo" src="img/arrow.png" alt="">
+      <img class="photo" src="./media/arrow.png">
       <br><br>
 
       <div id="cover-page-disclaimer">
@@ -724,7 +724,7 @@
             <strong>Why Should You Do Them?</strong><br>
             <p class="coursetext">
               Okay. This is gonna be a long one, because I feel <i>very strongly</i> about the topic.<br><br>
-              So, I remember looking around my EECS1012 LAS A lecture room once, and I saw so many people. Then I remember about all the students in other lectures, students in their second, third, and fourth
+              I remember looking around my EECS1012 LAS A lecture room once, and I saw so many people. Then I remember about all the students in other lectures, students in their second, third, and fourth
               years. Then I remembered how many universities we have in Canada. Essentially the point I'm trying to make here is - <strong>there's a lot of damn people you're competing with here</strong>.<br><br>
               I remember talking to my older sister (who was in engineeering) about how are you supposed to <i>stand out</i> from all these people, and she said <strong>work experience</strong>. But, how can you
               get work experience as a new grad if you don't <i>have</i> any to begin with? There's surely a bunch of people more qualified than me, how am I ever going to get noticed? How do people get work
@@ -766,18 +766,52 @@
             <strong>Lassonde Programs</strong><br>
             <p class="coursetext">
               Each have their own respective requirements. More information can be found on their offical website. Here's a quick difference between the two:<br><br>
+
               Co-op:<br>
-              -needs a 5.0 CGPA (meaning overall)<br>
-              -starts after you're done your second year in the summer at the earliest (meaning you'll be spending your winter taking courses and applying to jobs at the same time)<br>
-              -go out twice in shorter terms (4-8 months), once after your second year, and once again after your third year<br><br>
+              - needs a 5.0 CGPA (meaning overall)<br>
+              - starts after you're done your second year in the summer at the earliest (meaning you'll be spending your winter taking courses and applying to jobs at the same time)<br>
+              - go out twice in shorter terms (4-8 months), once after your second year, and once again after your third year<br><br>
+
               Internship:<br>
-              -needs a 6.0 MGPA (major GPA - meaning EECS and MATH courses)<br>
-              -starts after your third year in the summer at the earliest (meaning you'll spend the winter taking courses and applying as well)<br>
-              -go out once for a lengthier time (4-16 months)<br><br>
+              - needs a 6.0 MGPA (major GPA - meaning EECS and MATH courses)<br>
+              - starts after your third year in the summer at the earliest (meaning you'll spend the winter taking courses and applying as well)<br>
+              - go out once for a lengthier time (4-16 months)<br><br>
+
               To be honest I don't see much of a difference and why Lassonde divides the two, but I digress. Just make sure that at the end of the day, <strong>you graduate having some relevant work experience</strong>.
               Also, if you don't meet the GPA requirements to be in the Lassonde programs, it's not that big of a deal. You can still find internships without doing it through Lassonde's programs.<br><br>
+
               The benefit of being in a Lassonde program is that they just aggregate a bunch of job postings for you on a job board so you don't have to find them yourself, and there are a few Lassonde exclusive
-              job postings as well (so while you could find the job postings on the company websites themselves, there are a few you can't find unless you're in the Lassonde program).</p>
+              job postings as well (so while you could find the job postings on the company websites themselves, there are a few you can't find unless you're in the Lassonde program).</p> <br>
+
+              Finally: is there a benefit to even being in one of the Lassonde programs? Yes, especially if you have no experience. Most companies will want you to be part of an accredited
+              co-op or internship program, because they can get tax breaks for their interns. Most Big-N companies won't care about this, but if you have no experience, you'll want to start small before working
+              your way up. Being part of a Lassonde program can help a lot in finding your first internship, but you can disregard joining one of the programs if you already have a few internships under your belt.
+          </div>
+        </div>
+
+        <br>
+
+        <li><a data-toggle="collapse" href="#finding-jobs" aria-expanded="false" aria-controls="finding-jobs">How Do I Find Jobs?</a></li>
+        <div class="collapse" id="finding-jobs">
+          <br>
+          <div class="card card-body">
+            <strong>How Do I Find Jobs?</strong><br>
+            <p class="coursetext">
+              I think the mistake a lot of students make on their first job search is thinking they're limited to the Lassonde job portal (which is not substantial whatsoever) or
+              searching 'Software Engineer Intern' on LinkedIn. There's two important components when job searching: <strong>when to search, and how</strong>. <br><br>
+
+              For SUMMER internships, postings can open as early as July-August (the prior year). For FALL internships, postings will open around March-April, and for
+              WINTER internships, postings will be open around September-October. Summer is a very busy season - most companies hire for summer only, and the ones that hire all year,
+              summer has the most headcount. Fall and winter and generally what I call 'dead seasons'. It's possible to get internships for fall and winter, just much harder. <br><br>
+
+              Here's how I apply to jobs: <br><br>
+              - I have a long list of some 100-200 tech companies, and around when internship season begins, I'll Google search '{company name} careers', go to their careers page, and apply
+              on the company website. Most companies won't be shelling out money to post ads on LinkedIn. They know most people will go to their website to apply, and people do. <br>
+              - Depending on the season you're looking for, Google '{season} internships GitHub repo' - there's usually a GitHub repo floating around every season that's updated constantly
+              as internship applications open up. A good example is <a class="a-special" href="https://github.com/pittcsc/Summer2022-Internships" target="_blank">this repo</a>. <br>
+              - Talk in friend groups. If you have a group of friends and you're all collectively trying to find internships together, make a group chat and post links to new applications
+              you just applied to. Your friends might have applied to a posting you missed, and vice versa.
+            </p>
           </div>
         </div>
 
@@ -931,20 +965,101 @@
       <h2>About Author</h2>
       <br>
       <ul style="list-style-type:none">
-        <p>
-          Hi there!<br><br>
-          I'm Christopher. I'm currently a rising senior studying Computer Science, and also the former president of Computing Students' Hub (CSHub).<br><br>
-          The reason I made this guide is because many people would reach out to me with a lot of common questions, so I wanted to put this website together as a way to address them, to
-          document everything I've learned over the years, and things I wish I knew when I was a first year student. I was inspired when I saw students from other universities
-          making guides like this, so I wanted to do the same and give back to the community that I love so much. If there are any inconsistencies, something outdated,
-          or want a topic added, then feel free to message me on Discord; <strong>@chrispy#8933</strong>.<br><br>
-          All content is written by me. Special thanks to Harpreet, Jean, Jerry, and Lynn for helping me in designing the layout of this website. &#10084; <br><br>
-          (Found this guide useful? Star it on <a class="a-special" target="_blank" href="https://github.com/chrisngyn/LCSUG">GitHub</a>!)
+
+        <li><a data-toggle="collapse" href="#me" aria-expanded="false" aria-controls="me">About Me</a></li>
+        <div class="collapse" id="me">
+          <br>
+          <div class="card card-body">
+            <strong>About Me</strong><br>
+            <p class="coursetext">
+              Hey there, I'm Christopher. <br><br>
+              The reason I made this guide is because many people would reach out to me with a lot of common questions, so I wanted to put this website together as a way to address them,
+              to document everything I've learned over the years, and things I wish I knew when I was a first year student. I was inspired when I saw students from other universities
+              making guides like this, so I wanted to do the same. If there are any inconsistencies, something outdated, or want a topic added, then feel free to message me on Discord;
+              <strong>@chrispy#8933</strong>.
+            </p>
+          </div>
+        </div>
+
+        <br>
+
+        <li><a data-toggle="collapse" href="#path" aria-expanded="false" aria-controls="path">My Unconventional Path</a></li>
+        <div class="collapse" id="path">
+          <br>
+          <div class="card card-body">
+            <strong>My Unconventional Path</strong><br>
+            <p class="coursetext">
+              A condensed version is below. <br><br>
+
+              - Graduated from high school June 2017. I had no idea what I wanted to do with the rest of my life. I knew I liked computers, so I ran with that. I aced all my chemsitry
+              classes in high school, so I went with that too. I applied to digital media and chemistry at York, and computer science at York, Waterloo and Ryerson. I got into everything
+              except Waterloo; I got deferred to geomatics. I went to York for computer science. <br><br>
+              - Started computer science in September 2017. I've said it before and I'll say it again - computer science isn't a kind major to those not deeply passionate about it. I got
+              my ass handed to me in first year, and was struggling in first year courses like EECS1019, EECS1022, and MATH1310. I dropped two courses in my first year, and felt really
+              defeated about it. If everyone else could do it, why couldn't I? I talked to a Lassonde academic advisor about getting advice, and they suggested I switch majors. I stayed in. <br><br>
+              - Made it through my first year, fall 2017 and winter 2018. I took summer school courses to catch up on the ones I dropped winter semester. Would've been more productive to
+              look for internships instead, but I had no idea what internships were. No one told me. I had no idea how to advance my career, so I did class instead. <br><br>
+              - Second year was more kind to me since I got better at time management and how to optimize my schedule. Having a good group of friends to rely on when I need help was also
+              great. I got through fall 2018 and winter 2019 just fine, but winter 2019 was the first time I learned about the Lassonde internship program, and that it needed a 6.0 GPA to enter.
+              I had a 4.6. That summer 2019, I retook 3 courses, converted 3 Ds to 3 As, and brought my GPA up to a 6.1. <br><br>
+              - Third year was an important one. I went to Hack the North 2019, and it really opened my eyes. I got to talk to a lot of students who told me about their internships at Google,
+              Facebook, Amazon, etc. (albeit at the time they were probably just bragging, but to me it was humbling) and I realized I also wanted to do the same. I finally got my head out of my
+              ass and I told myself that summer, I'd get my first internship. <br><br>
+              - Being a student and looking for internships is not easy. In between juggling 5 classes, trying to LeetCode, do side projects, and apply to jobs was really hard. Seeing all my other
+              friends get interviews and job offers while I didn't was hard. Me failing the few interviews I had was hard. I was getting pretty miserable and depressed, but last minute I was able
+              to clutch an OA from CaseWare, got an interview, and converted it to an 8 month long internship offer. I got my first internship! <br><br>
+              - I lost my first internship. Because of the COVID-19 pandemic, CaseWare had to let go half of its interns. I was in the unlucky half. Back to applying. <br><br>
+              - I saw this one posting for the 'MLH Fellowship' program, which was an Open Source Software development internship catered towards students who lost their internship to COVID-19.
+              I applied and got it. <br><br>
+              - Finished my third year (fall 2019, winter 2020) and did my first internship at the MLH Fellowship that summer 2020. A few months into this internship, CaseWare emailed me asking
+              if I was interested in joining them in September. I said yes. <br><br>
+              - After finishing my internship at the MLH Fellowship, I went to CaseWare. During my time at CaseWare, I kept applying to jobs because I wasn't ready to go back to school, and I wanted
+              to intern somewhere else for winter 2021 (two 4 month internships > one 8 month internship). I got an offer at MDA Space for winter 2021. <br><br>
+              - After CaseWare, I went to work at MDA Space. During my internship, I still kept applying. I got an internship offer at Amazon for summer 2021, and also got a Shopify offer
+              for summer 2021. I managed to defer Shopify to fall 2021, though. I also decided that I no longer want to do the 120 credit degree, and will do the 90 credit degree instead.
+              I had all the job experience in the world, getting a full time job offer after I graduate shouldn't be too hard (I hope), despite me not having the 'honours' degree. <br><br>
+              - That brings us to present day. It's currently April 16th, 2021 (middle of winter 2021 semester if you will). I'm currently still working at MDA Space, but will be going to Amazon
+              this summer and will go to Shopify this fall. After the fall, I think I'll finally go back to school and do my last courses and graduate. Will update this as the timeline unfolds.
+
+              <br><br>
+
+              //
+
+              <br><br>
+
+              A condensed version: <br><br>
+
+              Fall 2017: started at York. <br>
+              Winter 2018: finished my first year. <br>
+              Summer 2018: took two summer school courses to catch up on the ones I dropped winter 2018. <br><br>
+
+              Fall 2018: second year. <br>
+              Winter 2019: finished my second year. Realized I needed to get my GPA up for the Lassonde internship program. <br>
+              Summer 2019: retook 3 courses, bringing 3 Ds to 3 As. Went from a 4.6 to a 6.1. Got admitted into the Lassonde internship program. <br><br>
+
+              Fall 2019: third year. Went to Hack the North 2019 which really opened my eyes and made me develop a strong passion in computer science. Vowed to get my first internship
+              this summer. Started applying to jobs, around ~100 applications with no responses. <br>
+              Winter 2020: first half of this semester was hell. No jobs, doing really bad in classes, everyone in my friend group but me had secured jobs. Out of nowhere, CaseWare
+              contacted me for an interview. I took it and converted it to an offer! <br>
+              Summer 2020: lost my internship because of COVID-19. Kept applying, and joined the MLH Fellowship this summer instead. CaseWare later contacted me this summer asking if
+              I wanted to join them this September, I said yes. <br><br>
+
+              Fall 2020: worked at CaseWare. Kept applying to jobs. Got an offer at MDA Space. Got interviews at Facebook, Apple, and Palo Alto Networks, but failed them all.<br>
+              Winter 2021 (present day): working at MDA Space. Kept applying to jobs. Got two offers, one at Amazon and one at Shopify. <br>
+              Summer 2021: will be interning at Amazon. <br><br>
+
+              Fall 2021: will be interning at Shopify, and will be applying to 2022 internships and new grad positions at this time. <br>
+              Winter 2022: will do my final courses at York, and graduate. <br>
+              Summer 2022: ??
+            </p>
+          </div>
+        </div>
+
+        <br>
+
+        <p style="text-align:right;">
+          Found this guide useful? Star it on <a class="a-special" target="_blank" href="https://github.com/chrisngyn/LCSUG">GitHub</a>! // <strong>Last updated on 04/16/2020.</strong>
         </p>
-
-        <br><br>
-
-        <p style="text-align:right;"><strong>Last updated on 08/06/2020.</strong></p>
       </ul>
     </section>
   </div>
